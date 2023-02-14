@@ -1,0 +1,37 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 350px;
+    background-color: pink;
+    border: 1px solid tomato;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+}
+#dice{
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: rgb(42, 167, 206);
+    margin: 10px auto;
+}
+
+.animation1{
+    animation: rolling 1s;
+}
+@keyframes rolling{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+button{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 20px;
+}

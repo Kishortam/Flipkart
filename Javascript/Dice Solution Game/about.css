@@ -1,0 +1,113 @@
+#btn{
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    padding: 18px 38px;
+    border: none;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+h1{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 300px;
+    border: 4px groove blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgb(215, 209, 221);
+}
+#dice{
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#butn{
+    background-color: rgb(90, 77, 102);
+    padding: 16px 28px;
+    font-size: 17px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#number{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+.anime{
+    animation-name: anime;
+    animation-duration: 1s;
+}
+@keyframes anime{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* Second example */
+.box{
+    width: 350px;
+    border: 5px solid Black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgb(209, 203, 203);
+    box-shadow: 0px 0px 12px 4px black ;
+}
+#ludo{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#diceValue{
+    font-size: 40px;
+    font-weight: 700;
+}
+#butn1{
+    background-color: black;
+    padding: 16px 48px;
+    font-size: 17px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#butn1:hover{
+    box-shadow: 0px 0px 2px black;
+    background-color: rgb(131, 131, 131);
+}
+.animate{
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+@keyframes animate{
+    30%{
+        transform: rotate(360deg);
+        margin-top: 100px;
+    }
+    70%{
+        transform: rotate(360deg);
+        margin-bottom: 100px;
+    }
+    100%{
+        transform: rotate(360deg);
+        margin-top: 100px;
+    }
+}

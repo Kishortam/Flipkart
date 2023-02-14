@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(193,252,211);
+background: linear-gradient(311deg, rgba(193,252,211,1) 28%, rgba(12,205,163,1) 100%);
+}
+header{
+    font-family: 'Yatra One', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 3.2vw;
+    background-color: #E8F9FD;
+    color: #0AA1DD;
+    height: 70px;
+    align-items: center;
+    padding: 0px 10px;
+    max-width: 100%;
+    transition: 2s;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.hand{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.navbar{
+    height: 50px;
+    align-items: center;
+    padding: 5px 15px;
+}
+.menu {
+    float: left;
+    width: 14%;
+    text-align: center;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #0ccda3;
+    background-color: white;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color:#FFFAD7;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #0ccda3;
+}
+.image-content{
+    max-width: 1350px;
+    margin: 10px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+}
+.bhavki-pic{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+@media only screen and (max-width:586px){
+    .menu{
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+    .image-content{
+        box-shadow: none;
+    }
+}
+
+
+/*  */
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap ;
+}
+.impnotice{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 2px 3px 4px lightslategray;
+    /* background: rgb(251,239,63);
+background: linear-gradient(90deg, rgba(251,239,63,1) 0%, rgba(240,0,49,1) 81%); */
+}
+.notice-pic{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.contacts{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 2px 3px 4px lightslategray;
+}
+tr,td,th{
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    border-bottom: 1px solid lightseagreen;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+tr:nth-child(even){
+    background-color: white;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+th{
+    text-align: left;
+    background-color: rgb(70, 67, 67);
+    color: white;
+}
+.chairpersons{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 2px 3px 4px lightslategray;
+}
+.becomemember{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 2px 3px 4px lightslategray;
+}
+.annual-fee{
+    width: 200px;
+    border: none;
+    border-radius: 12px;
+    background-color: pink;
+    position: fixed;
+    right: 3px;
+    bottom: 5px;
+    text-align: center;
+    font-size: 13px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+

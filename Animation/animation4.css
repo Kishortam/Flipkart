@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    padding: 20px 20px;
+    font-size: 15px;
+    border-bottom: 3px solid brown;
+    border-radius: 7px;
+    transition: padding 2s;
+
+}
+input:focus{
+    padding: 20px 50px;
+    background-color: antiquewhite;
+    outline-offset: none ;
+}
+.circle{
+    margin: 100px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: pop;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes pop{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: pink;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 3px ridge black;
+    }
+    100%{
+        background-color: orange;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px 7px red;
+    }
+}
+
+.box{
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    border-radius: 9px;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: pink;
+    transition: width 3s;
+}
+.box:hover{
+    width: 600px;
+    background-color: aqua;
+    border-bottom: 9px solid blueviolet;
+}
+.cir1{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 5px;
+    animation-name: tiptop;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes tiptop{
+    0%{
+       margin-top: 5px;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+       margin-top: 230px;
+       background-color: green;
+    }
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: dhaklo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes dhaklo{
+    0%{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    }
+    45%{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(59, 228, 25);
+        transform: rotate(360deg);
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: rgb(224, 119, 21);
+        transform: rotate(360deg);
+        margin-left: 900px;
+    }
+}

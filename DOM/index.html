@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 id="title">Have you Subscribed annual plan?</h1>
+        <button class="btn" id="btn1" onclick="joined()">Yes, I have Subscribed</button>
+    </div>
+
+    <div class="box">
+        <h1 id="noise">Noise Smartwatch M30</h1>
+        <button id="butn" onclick="shop()">Shop Now</button>
+    </div>
+
+    <!-- ex.1 -->
+    <div class="container">
+        <h1 id="msg">Download the Full Video</h1>
+        <button class="btn" id="btn2" onclick="download()">Download</button>
+    </div>
+<!-- Cube app -->
+    <div class="container">
+        <h1 id="title">Cube Counter App</h1>
+        <p>This is simple cube 0<sup>3</sup> counter application</p>
+        <input type="text" id="number" placeholder="enter a number">
+        <h2 id="result"></h2>
+        <button class="btn" id="btn3" onclick="cube()">Calculate</button>
+    </div>
+
+    <!-- Bill Split -->
+    <div class="container">
+        <h1 id="title">Bill Splitter App</h1>
+        <p>Split the bill with your Friends</p>
+        <input type="text" id="amount" placeholder="enter a amount">
+        <input type="text" id="friends" placeholder="No. of Friends">
+        <h2 id="divide"></h2>
+        <button class="btn" id="btn3" onclick="split()">Split the bill</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

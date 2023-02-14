@@ -1,0 +1,40 @@
+.Parent_box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.child_box{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 12px;
+    margin: 3px;
+}
+
+/* Styled Flexbox */
+.mainbox{
+    display: flex;
+    justify-content: space-around;
+
+}
+.card{
+    width: 300px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 15px;
+
+}
+.imgs{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.Electronics{
+    width: 500px;
+    border: 2px solid lightgray;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 20px;
+    text-align: center;
+}

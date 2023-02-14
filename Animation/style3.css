@@ -1,0 +1,55 @@
+div{
+    display: inline-block;
+}
+.basic{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    transition: 5s;
+}
+.basic:hover{
+    background-color: pink;
+    transform: rotate(360deg);
+}
+.enlarge{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    transition: 3s;
+}
+.enlarge:hover{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+.movable{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+
+    animation-name: mova;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes mova{
+    50%{
+        background-color: lightseagreen;
+        margin-left: 300px;
+        
+    }
+    75%{
+        background-color: pink;
+        margin-left: 600px;
+      
+    }
+    100%{
+        background-color: red;
+        margin-left: 900px;
+        transform: rotate(360deg);
+    }
+}

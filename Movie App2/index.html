@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <h1 class="heading">Search your favourite Movie</h1>
+        <input type="text" name="" id="moviename"> <br>
+        <button id="search" onclick="searchMovie()">Search now ></button>
+    </div>
+    <div class="box2 d-none" id="container">
+            <div class="content">
+                <h2><span id="title">Jab we met</span></h2>
+                <p><span id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+                <p><span id="year">2001</span>,<span id="genre">drama</span></p>
+                <p>Actors: <span id="actors">Shahid Kapoor, Kareena Kapoor</span></p>
+                <p>Director: <span id="director">Imtiaz Ali</span></p>
+                <p>Earnings: <span id="earnings">200cr</span></p>
+                <p>Awards:<span id="awards"></span></p>
+            </div>
+            <div class="poster">
+                <img src="./AFP_8V468P_1607663342553_1607663384800_1636615192945.webp" alt="" id="poster">
+            </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

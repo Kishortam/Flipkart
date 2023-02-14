@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    width: 500px;
+    height: 400px;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+.pic1{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+}
+.content{
+    position: absolute;
+    background-color: rgba(179, 176, 176,0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    bottom: 30px;
+    left: 30px;
+    
+}
+.card:hover{
+    box-shadow: 0px 0px 5px lightblue;
+}
+
+button{
+    position: absolute;
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    bottom: 30px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: backgound-color, 2s;
+}
+button:hover{
+    background-color: rgb(88, 1, 170);
+    border-color: white;
+}

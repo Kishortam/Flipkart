@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 12px;
+    background-color: rgb(111, 163, 111);
+    height: 50px;
+}
+.navbar a{
+    color: white;
+}
+.logo{
+    width:80px;
+    height: 40px;
+    box-sizing: border-box;
+}
+.search{
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+table th{
+    text-align: left;
+    background-color: lightgray;
+}
+td, th{
+    padding: 5px;
+}

@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    margin: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(253, 253, 116);
+}
+input{
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 6px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+button{
+    padding: 10px 25px;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* 2nd example */
+.box1{
+    width: 300px;
+    padding: 40px;
+    margin: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(65, 131, 206);
+}
+
+.box2{
+    width: 500px;
+    padding: 40px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(124, 240, 205);
+}

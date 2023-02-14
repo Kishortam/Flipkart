@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        form{
+            width: 50%;
+            margin: auto;
+            background-color: rgb(225, 233, 230);
+            padding: 14px;
+            border-radius: 12px;
+            box-shadow: 2px 2px 8px blueviolet;
+
+        }
+        input{
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
+            border-bottom: 2px solid blueviolet;
+            border-left: 2px solid blueviolet;
+            background-color: aliceblue;
+        }
+        input[type=submit]{
+            font-size: 15px;
+            width: 50%;
+            transition: 3s;
+        }
+        input[type=submit]:hover{
+            width: 100%;
+        }
+        @media only screen and (max-width:400px){
+            form{
+                width: 100%;
+                background-color: rgb(132, 151, 151);
+                color: white;
+            }
+            input:focus{
+                outline: none;
+                border: 2px solid blueviolet;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+            <label for="">First Name:</label> <br>
+            <input type="text" name="first name" id=""><br>
+            <label for="">Last Name:</label> <br>
+            <input type="text" name="last name" id=""><br>
+            
+            <label for="">Userame:</label> <br>
+            <input type="text" name="user name" id=""><br>
+            <label for="">Date of Birth:</label> <br>
+            <input type="date" name="first name" id=""><br>
+            <label for="">Contact No:</label> <br>
+            <input type="tel" name="first name" id=""><br>
+            <label for="">Select a Photo</label> <br>
+            <input type="file" name="" id=""><br>
+            <label for="">Select a color</label> <br>
+            <input type="color" name="" id=""><br><br>
+            <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

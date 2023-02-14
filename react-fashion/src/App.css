@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+.card{
+  width: 250px;
+  height: 350px;
+  margin: 10px;
+  box-shadow: 0px 0px 5px gray;
+  transition: 1s;
+}
+.card:hover{
+  background-color: rgb(248, 241, 233);
+  height: 370px;
+}
+
+.picture{
+  width: 100%;
+  height: 210px;
+  /* border-radius: 12px; */
+  object-fit: cover;
+}
+.picture-info{
+  position: relative;
+}
+.ratings{
+  padding: 4px;
+  font-size: 10px;
+  border-radius: 3px;
+  font-weight: 400;
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+}
+.label{
+  background-color: pink;
+  padding: 3px 7px;
+  font-size: 11px;
+  border-radius: 4px 0px 4px 0px;
+  display: inline-block;
+}
+.flex2{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.content{
+  padding: 10px;
+}
+.flexbox{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.brand{
+  font-size: larger;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+.desc{
+  color: gray;
+  font-size: 13px;
+  margin-top: 1px;
+}
+.price{
+  font-size: medium;
+  font-weight: 500;
+  margin-top: 1px;
+}
+span{
+  color: rgba(235, 114, 114, 0.918);
+  font-size: 12px;
+  margin-left: 15px;
+}
+.d-none{
+  display: none;
+}
+.free{
+  color: rgb(240, 133, 150);
+  font-size: 12px;
+  font-style: italic;
+}

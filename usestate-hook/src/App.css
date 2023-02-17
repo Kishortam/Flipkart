@@ -1,0 +1,49 @@
+.butn{
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 50px auto;
+}
+.card{
+  width: 300px;
+  margin: 100px auto;
+  padding: 10px;
+  border: 1px groove gray;
+  border-radius: 7px;
+}
+img{
+  width: 100%;
+  border-radius: 7px;
+}
+.butn1{
+  background-color: rgb(240, 54, 54);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.success{
+  background-color: lightgreen;
+  color: rgb(51, 40, 40);
+  border-radius: 4px;
+  padding: 5px;
+  border-bottom: 2px solid green;
+}
+.d-none{
+  display: none;
+}
+.butn2{
+  background-color: rgb(172, 168, 168);
+  color: rgb(24, 24, 24);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}

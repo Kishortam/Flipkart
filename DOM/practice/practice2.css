@@ -1,0 +1,36 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.flex{
+    justify-content: space-around;
+    display: flex;
+}
+.container{
+    width: 300px;
+    border-radius: 12px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: azure;
+    margin: 10px;
+    text-align: center;
+}
+.butn1{
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#msg{
+    background-color: rgb(192, 105, 105);
+    padding: 5px;
+    border-radius: 4px;
+}
+input{
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 7px;
+}

@@ -61,7 +61,7 @@ console.log('task 7')
 //
 
 function sendReceipt(){
-    console.log('send transaction receipt to user')
+    console.log('send transaction receipt to user');
 }
 
 function paid(){
